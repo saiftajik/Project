@@ -16,7 +16,15 @@ html {
 body {
     background-color: var(--black);
     color: var(--white);
-  }
+}
+@font-face {
+    font-family: futurak;
+    src: url(../fonts/futurak.ttf);
+}
+@font-face {
+    font-family: apercu;
+    src: url(../fonts/apercu.otf);
+}
 
 /* Start of Navbar */
 .logo-image{
@@ -63,3 +71,60 @@ body {
     border-radius: 20px;
 }
 /* End of Navbar */
+
+/* Start of Main */
+.corosal-img{
+    width: 100%;
+}
+
+.brand-heading{
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 80px;
+    font-weight: 200;
+}
+.font-heading{
+    font-family: futurak;
+    font-size: 5rem;
+}
+.brand-para{
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 15px;
+    font-family: apercu;
+}
+
+.brand-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.brand-childern{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    
+}
+.brand-img{
+    background-color: var(--white);
+    width: 212px;
+    height: 140px;
+    padding: 20px;
+}
+.brand-btn{
+    display: flex;
+    background-color: var(--black);
+    color: var(--white);
+    border: 2px solid var(--white);
+    padding: 10px 15px;
+    border-radius: 35px;
+    font-size: 1.7rem;  
+    margin-top: 20px;
+}
+
+
+/* End of Main */
