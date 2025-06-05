@@ -13,7 +13,7 @@ html {
     --white: #ffffff;
     --red: red;
     --grey: grey;
-    --light-black:#18171789;
+    --light-black:#1c1b1b89;
     --green: rgba(46, 165, 46, 0.842);
 
     
@@ -33,6 +33,10 @@ body {
 @font-face {
     font-family: butler;
     src: url(/fonts/butler.otf);
+}
+@font-face {
+    font-family: inter;
+    src: url(../fonts/Inter.otf);
 }
 
 /* Start of Navbar */
@@ -201,7 +205,6 @@ body {
 }
 .express-franchises-childern{
     width: 296px;
-    gap: 30px;
 }
 .express-franchises-childern-para{
     letter-spacing: 3px;
@@ -209,6 +212,7 @@ body {
     text-align: center;
     margin-top: 20px;
     font-size: 12px;
+    
 }
 .express-franchises-childern-heading{
     text-align: center;
@@ -393,8 +397,105 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 70px;
 }
 /* Socail Feed ENDED */
 
 /* End of Main */
+
+/* START OF FOOTER  */
+
+    /* Footer Section Started */
+.footer-section{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--light-black);
+    margin-top: 80px;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+} 
+.footer-section-childern{
+    margin-top: 80px;
+}   
+.footer-section-para{
+    margin-top: 40px;
+    font-family: apercu;
+    font-size: 15px;
+    color: var(--grey);
+}
+.footer-section-para2{
+    margin-top: 30px;
+    font-family: apercu;
+    font-size: 16px;
+    color: var(--grey);
+}
+.footer-section-site-links{
+    margin-top: 80px;
+}
+.site-link-para{
+    font-size: 16px;
+    font-family: butler;
+    font-weight: 700;
+}
+li {
+    list-style: none;
+    margin-top: 15px;
+    font-size: 15px;
+    
+}
+a {
+    text-decoration: none;
+    color: var(--grey);
+}
+.footer-section-contact-us{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.contact-heading{
+    font-family: inter;
+    font-size: 16px;
+}
+.contact-section-para{
+    font-family: apercu;
+    font-size: 15px;
+    color: var(--grey);
+}
+.footer-section-feedback{
+    margin-top: 70px;
+    font-size: 16px;
+    font-family: butler;
+    font-weight: 700;
+}
+.footer-logo{
+    margin-top: 30px;
+}
+.brand-logo{
+    color: var(--white);
+    background-color: var(--red);
+    padding: 15px;
+    border-radius: 100px;
+}
+.playstore{
+    margin-top: 60px;
+    
+}
+.playstore-img{
+    margin-top: 30px;
+    
+}
+.last-line{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 900px;
+}
+.last-heading{
+    font-family: inter;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+    /* Foooter Section Ended */
+
+/* END OF FOOTER */
