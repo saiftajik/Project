@@ -377,4 +377,24 @@ body {
 }
 /* Express Franchise ENDED */
 
+/* Socail Feed STARTED */
+.social-feed-heading{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 3.2rem;
+    font-family: butler;
+}
+.social-feed-image{
+    width: 280px;
+    height: 280px;
+}
+.social-container{
+    gap: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+/* Socail Feed ENDED */
+
 /* End of Main */
