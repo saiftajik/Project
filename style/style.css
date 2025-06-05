@@ -12,6 +12,11 @@ html {
     --black: #000000;
     --white: #ffffff;
     --red: red;
+    --grey: grey;
+    --light-black:#18171789;
+    --green: rgba(46, 165, 46, 0.842);
+
+    
 }
 body {
     background-color: var(--black);
@@ -24,6 +29,10 @@ body {
 @font-face {
     font-family: apercu;
     src: url(../fonts/apercu.otf);
+}
+@font-face {
+    font-family: butler;
+    src: url(/fonts/butler.otf);
 }
 
 /* Start of Navbar */
@@ -125,6 +134,193 @@ body {
     font-size: 1.7rem;  
     margin-top: 20px;
 }
+/* LOCATION STARTED */
+.franchise-location{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.location-container{
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+    margin-top: 35px;
+}
+.location-para{
+    font-family: apercu;
+    color: var(--red);
+    letter-spacing: 1rem;
+    font-size: 2rem;
+    font-weight: 100;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.brand-heading1{
+    margin-top: 10px;
+    font-size: 2.5rem;
+    margin-left: 100px;
+    font-weight: 200;
+}
+.font-heading1{
+    font-family: futurak;
+    font-size: 3rem;
+}
+.address-para{
+    margin-left: 100px;
+    font-size: 1.9rem;
+    margin-top: 30px;
+    color: var(--grey);
+    margin-bottom: 10px;
+}
+.phone-num{
+    margin-left: 100px;
+    font-size: 1.9rem;
+    color: var(--grey);
+    text-decoration: none;
+}
+.direction-bttn{
+    margin-left: 100px;
+    margin-top: 60px;
+    background-color: var(--black);
+    color: var(--white);
+    border: 1px solid var(--white);
+    padding: 15px 20px;
+    border-radius: 35px;
+    font-size: 1.2rem;
+}
+/* LOACTION ENDED */
 
+/* FRANCHISE STARTED */
+.express-franchises{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 130px;
+    gap: 10px;
+}
+.express-franchises-childern{
+    width: 296px;
+    gap: 30px;
+}
+.express-franchises-childern-para{
+    letter-spacing: 3px;
+    color: var(--red);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.express-franchises-childern-heading{
+    text-align: center;
+    margin-top: 15px;
+}
+.address-para-franchise{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    color: var(--grey);
+    margin-bottom: 10px;
+}
+.phone-num-franchise{
+    margin-left: 60px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--grey);
+    text-decoration: none;
+}
+.font-heading-franchise{
+    font-family: futurak;
+    font-size: 2.5rem;
+    font-weight: 300;
+
+}
+.direction-bttn-franchise{
+    margin-left: 60px;
+    margin-top: 50px;
+    background-color: var(--black);
+    color: var(--white);
+    border: 1px solid var(--white);
+    padding: 15px 20px;
+    border-radius: 35px;
+    font-size: 1.5rem;  
+}
+.express-franchises-childern-img{
+    width: 396px;
+    height: 250px;
+}
+/* FRANCHISE ENDED */
+
+/* Village Franchise STARTED  */
+.village-container{
+    margin-top: 80px;
+    background-color: var(--light-black);
+
+}
+.village-heading{
+    font-size: 5.2rem;
+    font-family: futurak;
+    text-align: center;    
+}
+.village-heading2{
+    font-family: butler;
+    margin-top: 60px;
+}
+.direction-bttn-village{
+    margin-left: 30px;
+    margin-top: 60px;
+    background-color: var(--green);
+    color: var(--white);
+    border: 1px solid var(--green);
+    padding: 15px 20px;
+    border-radius: 35px;
+    font-size: 1.6rem;
+}
+.icon-span-village{
+    background-color: var(--white);
+    color: var(--green);
+    padding: 5px 9px;
+    border-radius: 20px;
+}
+.location-container-village{
+    display: flex;
+    align-items: center; 
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+.location-para-village{
+    font-family: apercu;
+    color: var(--red);
+    letter-spacing: 1rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.brand-heading-village{
+    margin-top: 10px;
+    font-size: 2.5rem;
+    margin-left: 30px;
+    font-weight: 200;
+}
+.address-para-village{
+    margin-left: 30px;
+    font-size: 1.6rem;
+    margin-top: 20px;
+    color: var(--grey);
+    margin-bottom: 10px;
+}
+.phone-num-village{
+    margin-left: 30px;
+    font-size: 1.6rem;
+    color: var(--grey);
+    text-decoration: none;
+}
+.village-img{
+    width: 700px;
+    height: 400px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+/* Village Franchise ENDED */
 
 /* End of Main */
