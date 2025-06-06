@@ -173,4 +173,78 @@ body {
 
 /* LOACTION ENDED */
 
+/* Express STARTED */
+    .intro-para-3{
+    font-family: apercu;
+    font-size: 16px;
+    margin: 20px 0px 15px;
+    text-align: center;
+    color: var(--grey);
+}
+.franchise-img-2{
+    height: 400px;
+    width: 690px;
+}
+/* EXpress ENDED */
+
+/* FRANCHISE STARTED */
+.express-franchises{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 130px;
+    gap: 10px;
+}
+.express-franchises-childern{
+    width: 296px;
+}
+.express-franchises-childern-para{
+    letter-spacing: 3px;
+    color: var(--red);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    
+}
+.express-franchises-childern-heading{
+    text-align: center;
+    margin-top: 15px;
+}
+.address-para-franchise{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    color: var(--grey);
+    margin-bottom: 10px;
+}
+.phone-num-franchise{
+    margin-left: 60px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--grey);
+    text-decoration: none;
+}
+.font-heading-franchise{
+    font-family: futurak;
+    font-size: 2.5rem;
+    font-weight: 300;
+
+}
+.direction-bttn-franchise{
+    margin-left: 60px;
+    margin-top: 50px;
+    background-color: var(--black);
+    color: var(--white);
+    border: 1px solid var(--white);
+    padding: 25px 15px;
+    border-radius: 35px;
+    font-size: 1.5rem;  
+}
+.express-franchises-childern-img{
+    width: 396px;
+    height: 250px;
+}
+
+/* FRANCHISE ENDED */
+
 /* Main ENDED */
