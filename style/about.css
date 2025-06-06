@@ -304,3 +304,100 @@ body {
 /* Village Franchise ENDED */
 
 /* Main ENDED */
+
+/* START OF FOOTER  */
+
+    /* Footer Section Started */
+.footer-section{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--light-black);
+    margin-top: 80px;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+} 
+.footer-section-childern{
+    margin-top: 80px;
+}   
+.footer-section-para{
+    margin-top: 40px;
+    font-family: apercu;
+    font-size: 15px;
+    color: var(--grey);
+}
+.footer-section-para2{
+    margin-top: 30px;
+    font-family: apercu;
+    font-size: 16px;
+    color: var(--grey);
+}
+.footer-section-site-links{
+    margin-top: 80px;
+}
+.site-link-para{
+    font-size: 16px;
+    font-family: butler;
+    font-weight: 700;
+}
+li {
+    list-style: none;
+    margin-top: 15px;
+    font-size: 15px;
+    
+}
+a {
+    text-decoration: none;
+    color: var(--grey);
+}
+.footer-section-contact-us{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.contact-heading{
+    font-family: inter;
+    font-size: 16px;
+}
+.contact-section-para{
+    font-family: apercu;
+    font-size: 15px;
+    color: var(--grey);
+}
+.footer-section-feedback{
+    margin-top: 70px;
+    font-size: 16px;
+    font-family: butler;
+    font-weight: 700;
+}
+.footer-logo{
+    margin-top: 30px;
+}
+.brand-logo{
+    color: var(--white);
+    background-color: var(--red);
+    padding: 15px;
+    border-radius: 100px;
+}
+.playstore{
+    margin-top: 60px;
+    
+}
+.playstore-img{
+    margin-top: 30px;
+    
+}
+.last-line{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 900px;
+}
+.last-heading{
+    font-family: inter;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+    /* Foooter Section Ended */
+
+/* END OF FOOTER */
