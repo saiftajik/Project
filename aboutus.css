@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+  }
+:root{
+    --black: #000000;
+    --white: #ffffff;
+    --red: red;
+    --grey: grey;
+    --light-black:#1c1b1b89;
+    --green: rgba(46, 165, 46, 0.842);
+
+    
+}
+body {
+    background-color: var(--black);
+    color: var(--white);
+}
+@font-face {
+    font-family: futurak;
+    src: url(../fonts/futurak.ttf);
+}
+@font-face {
+    font-family: apercu;
+    src: url(../fonts/apercu.otf);
+}
+@font-face {
+    font-family: butler;
+    src: url(/fonts/butler.otf);
+}
+@font-face {
+    font-family: inter;
+    src: url(../fonts/Inter.otf);
+}
