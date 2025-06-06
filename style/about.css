@@ -1,0 +1,176 @@
+*{
+    margin: 0px 10px 0px 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+  }
+:root{
+    --black: #000000;
+    --white: #ffffff;
+    --red: red;
+    --grey: grey;
+    --light-black:#1c1b1b89;
+    --green: rgba(46, 165, 46, 0.842);
+    --dark-grey: rgb(63, 63, 63);
+
+    
+}
+body {
+    background-color: var(--black);
+    color: var(--white);
+}
+@font-face {
+    font-family: futurak;
+    src: url(../fonts/futurak.ttf);
+}
+@font-face {
+    font-family: apercu;
+    src: url(../fonts/apercu.otf);
+}
+@font-face {
+    font-family: butler;
+    src: url(/fonts/butler.otf);
+}
+@font-face {
+    font-family: inter;
+    src: url(../fonts/Inter.otf);
+}
+
+/* Start of Navbar */
+.logo-image{
+    width: 165px;
+     margin-bottom: 20px;
+}
+.nav-item{
+    font-size: 1.7rem;
+    color: var(--white);
+    text-decoration: none;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.nav-parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid var(--dark-grey);
+}
+.navbar-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.franchise-bttn{
+    background-color: var(--black);
+    color: var(--white);
+    border: 2px solid var(--white);
+    padding: 15px;
+    border-radius: 35px;
+    font-size: 1.7rem;
+}
+.order-bttn{
+    background-color: var(--red);
+    color: var(--white);
+    border: 2px solid var(--white);
+    padding: 10px 15px;
+    border-radius: 35px;
+    font-size: 1.7rem;
+}
+.icon-span{
+    background-color: var(--white);
+    color: var(--red);
+    padding: 5px 9px;
+    border-radius: 20px;
+}
+/* End of Navbar */
+
+/* Main STARTED */
+/* Start od Intro */
+.introduction{
+    text-align: center;
+    margin-top: 90px;
+}
+.intro{
+    font-size: 40px;
+    font-family: butler;
+    margin: 0px 0px 32px;
+}
+.intro-para{
+    font-family: apercu;
+    font-size: 16px;
+    margin: 0px 0px 15px;
+    text-align: center;
+    color: var(--grey);
+}
+.restaurant-heading{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 32px;
+    font-family: inter;
+    margin-bottom: 10px;
+}
+/* END of intro */
+
+/* START of Restaurant Description */
+
+.restaurant-descripiton{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3px;
+    
+}
+.rest-heading{
+    font-family: futurak;
+    font-size: 32px;
+}
+.rest-heading2{
+    font-family: inter;
+    font-size: 32px;
+}
+.restaurant-img{
+    width: 670px;
+    margin-top: 70px;
+    border-radius: 6px;
+}
+.restaurant-para{
+    font-size: 15px;
+    font-family: apercu;
+    color: var(--grey);
+    margin-top: 20px;
+}
+/* END of Restaurant Description */
+
+/* LOCATION STARTED */
+       
+.franchise-heading{
+    text-align: center;
+    margin-top: 100px;
+}
+.location-container{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.franchise-img{
+    width: 670px;
+    border-radius: 4px;
+    height: 310px;
+}
+.intro-para-2{
+    font-family: apercu;
+    font-size: 16px;
+    margin: 4px 0px 15px 18px;
+    color: var(--grey);
+}
+
+/* LOACTION ENDED */
+
+/* Main ENDED */
