@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--clay);
+
+}
+html {
+    font-size: 62.5%;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+:root{
+    --clay: rgb(248 241 231);
+    --brown:rgb(80, 35, 20);
+    --grey: grey;
+    --light-grey: rgb(201, 201, 201);
+    --red: rgb(211, 8, 8);
+    --white: white;
+}
+@font-face {
+    font-family: baloo;
+    src: url(fonts/baloo.ttf);
+}
+@font-face {
+    font-family: flame;
+    src: url(fonts/flame.otf);
+}
+@font-face {
+    font-family: flamesans;
+    src: url(fonts/flamesans.otf);
+}
+/* Navbar Started */
+.navbar{
+    margin-top: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: 0.1px solid var(--light-grey);
+}
+.menu{
+    color: var(--brown);
+    font-size: 20px;
+}
+.heading{
+    font-size: 30px;
+    color: var(--brown);
+    font-family: baloo;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.bag-shop{
+    color: var(--grey);
+    font-size: 14px;
+    margin-left: 20px;
+    border: 1px solid var(--grey);
+    border-radius: 40px;
+    padding: 10px 20px 10px 20px;
+    font-weight: bolder;
+}
+.user{
+    color: var(--brown);
+    font-size: 16px;
+    margin-left: 20px;
+}
+/* End of Navbar */
+
+/* Start of Main */
+
+/* Start of Order */
+.bk-order{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.start-order{
+    font-size: 60px;
+    margin-top: 60px;
+    color: var(--brown);
+    font-family: flame;
+    font-weight: 900;
+    margin-left: 30px;
+    
+}
+.start-order2{
+    font-size: 60px;
+    color: var(--brown);
+    font-family: flame;
+    font-weight: 500;
+}
+.order-pickup{
+    border: 1px solid var(--red);
+    border-radius: 40px;
+    color: var(--white);
+    background-color: var(--red);
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+    padding: 10px;
+}
+.order-img{
+    width: 785px;
+    height: 393px;
+}
+#shopping-bag{
+    background-color: var(--red);
+    color: var(--white);
+}
+.order-delivery{
+    border: 1px solid var(--grey);
+    margin-top: 10px;
+    border-radius: 40px;
+    color: var(--brown);
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+    padding: 10px;
+}
+.participating{
+    text-align: center;
+}
+/* End of Order */
+
+/* Start of Deals */
+.deals{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+    
+}
+.deal-background{
+    background-color: var(--white);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.deal1{
+    width: 594px;
+    height: 247px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+.deal-heading{
+    font-family: flame;
+    font-size: 24px;
+    padding: 10px 0 10px;
+    color: var(--brown);
+    background-color: var(--white);
+    margin-left: 20px;
+}
+.deal-description{
+    color: var(--brown);
+    font-size: 13px;
+    font-family: flamesans;
+    margin-bottom: 20px;
+    background-color: var(--white);
+    margin-left: 20px;
+}
+.see-terms{
+    color: var(--brown);
+    font-size: 13px;
+     font-family: flamesans;
+     background-color: var(--white);
+     margin-left: 20px;
+}
+.order-now{
+    margin-top: 80px;
+    font-family: flame;
+    float: right;
+    font-size: 16px;
+    color: var(--brown);
+    border: 1px solid var(--brown);
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    background-color: var(--white);
+    margin-right:20px;
+}
+
+/* End of Deals */
+
+/* End of Main */
