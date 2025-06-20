@@ -17,6 +17,7 @@ html {
     --light-grey: rgb(201, 201, 201);
     --red: rgb(211, 8, 8);
     --white: white;
+    --drak-clay: rgb(238 232 222);
 }
 @font-face {
     font-family: baloo;
@@ -184,3 +185,78 @@ html {
 /* End of Deals */
 
 /* End of Main */
+
+
+/* Start of footer */
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--drak-clay);
+    margin-top: 120px;
+    justify-content: center;
+    height: 500px;
+}
+.footer-img{
+    background-color: var(--drak-clay);
+    height: 420px;
+    width: 430px;
+}
+.footer-sales{
+    font-size: 42px;
+    margin-top: 120px;
+    font-family: flame;
+    font-weight: bolder;
+    color: var(--brown);
+    background-color: var(--drak-clay);
+    margin-bottom: 30px;
+}
+.footer-img-div{
+    background-color: var(--drak-clay);
+}
+.footer-sale{
+    background-color: var(--drak-clay);
+    
+}
+.app-store{
+    height: 63px;
+    width: 180px;
+     background-color: var(--drak-clay);
+}
+
+.google-store{
+    height: 63px;
+    width: 180px;
+    background-color: var(--drak-clay);
+  
+}
+.store-des{
+    font-size: 14px;
+    margin-top: 22px;
+    font-family: flamesans;
+    background-color: var(--drak-clay);
+    color: var(--brown);
+}
+.footer-copyright{
+    font-size: 14px;
+    background-color: var(--brown);
+    padding: 20px;
+    text-align: center;
+}
+.copyright{
+    background-color: var(--brown);
+    color: var(--white);
+}
+
+.footer-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footer-menu-text{
+    margin-top: 5px;
+    font-size: 12px;
+    font-family: flame;
+    color: var(--brown);
+
+}
+/* End of Footer */
